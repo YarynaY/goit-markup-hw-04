@@ -73,6 +73,8 @@ img {
   --team-fill-color: #f4f4fd;
   --customers-icon-fill: #8E8F99;
   --footer-soc-fill: #f4f4fd;
+  --team-soc-link-color: #8e8f99;
+  --twam-soc-link-hover: #404bbf
 }
 
 /* inherit - наслідування шрифта; */
@@ -337,13 +339,15 @@ width: calc((100%-72) / 4);
   display: flex;
   align-items: center;
   justify-content: center;
+  color: var(--team-soc-link-color);
 }
 .team-soc-link:hover,
 .team-soc-link:focus {
   background-color: #404bbf; 
+  color: var(--twam-soc-link-hover);
 }
 .team-soc-icon {
-  fill: var(--team-fill-color);
+  fill: currentColor;
 }
 
 
